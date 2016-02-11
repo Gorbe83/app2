@@ -108,6 +108,9 @@ h1 {
   font-size: 20px;
   line-height: 1.8em;
 }
+a {
+  color: #666;
+}
 header {
   padding: 20px 10px;
   color: #fff;
@@ -148,7 +151,7 @@ header {
   margin-bottom: 10px;
 }
 p {
-  line-height: 1.8em;
+  line-height: 1.8;
 }
 .readmore {
   float: right;
@@ -161,6 +164,58 @@ footer {
   padding-top: 5px;
   text-align: center;
   margin-top: 20px;
+}
+br {
+  clear: both;
+}
+ul.featurelist {
+  margin-bottom: 20px;
+  display: block;
+  overflow: auto;
+}
+ul.featurelist li {
+  line-height: 2em;
+  border-bottom: #ccc 1px dotted;
+  float: left;
+  width: 200px;
+}
+form.addUser input {
+  margin-bottom: 15px;
+  border: 1px #ccc solid;
+  padding: 5px;
+  height: 22px;
+  width: 95%;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+form.addUser button {
+  clear: both;
+  display: block;
+}
+.userlistlink {
+  clear: both;
+  padding: 5px;
+  background: #ccc;
+  margin-bottom: 20px;
+  display: block;
+}
+.userlistlink p {
+  margin: 0;
+  padding: 0;
+}
+th,
+tr,
+td {
+  padding: 5px;
+}
+tr {
+  border-bottom: 1px #ccc dashed;
+  display: block;
+}
+td,
+th {
+  width: 100px;
+  text-align: left;
 }
 @media (max-width: 568px) {
   header {
@@ -180,6 +235,12 @@ footer {
   }
   .sidebar .block {
     margin: 0;
+  }
+  ul.featurelist li {
+    line-height: 2em;
+    border-bottom: #ccc 1px dotted;
+    float: none;
+    width: 100%;
   }
   footer {
     text-align: center;

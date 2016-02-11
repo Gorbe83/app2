@@ -58,7 +58,7 @@ app2.use(express.static(__dirname + '/public'));
 app2.get('/', routes.index);
 app2.get('/users', user.list);
 app2.get('/userlist', routes.userlist(db));
-//app2.post('/adduser', routes.adduser(db));
+app2.post('/adduser', routes.adduser(db));
 
 app2.listen(portNumber);
 console.log('Server corriendo en el puerto ' + portNumber);
