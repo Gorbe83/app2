@@ -11,7 +11,14 @@
     "jade": "*",
     "nib": "*",
     "mongodb": "*",
-    "monk": "*"
+    "monk": "*",
+    "morgan": "*",
+    "mongodb": "*",
+    "monk": "*",
+    "express-session": "*",
+    "method-override": "*",
+    "cookie-parser": "*",
+    "body-parser": "*"
   },
   "repository": {
     "type": "git",
